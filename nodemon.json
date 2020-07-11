@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_USER": "jake",
+    "MONGO_PASSWORD": "DbMa48SM5APFSgNG",
+    "MONGO_DBNAME": "cypherProducts"
+  }
+}
