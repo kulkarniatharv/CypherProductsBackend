@@ -34,12 +34,12 @@ app.use(
 
 mongoose
   .connect(
-    // `mongodb+srv://${process.env.MONGO_USER}:${
-    //   process.env.MONGO_PASSWORD
-    // }@cluster0.klzm6.mongodb.net/${
-    //   process.env.MONGO_DBNAME
-    // }?retryWrites=true&w=majority`,
-    'mongodb+srv://jake:DbMa48SM5APFSgNG@cluster0.klzm6.mongodb.net/cypherProducts?retryWrites=true&w=majority',
+    `mongodb+srv://${process.env.MONGO_USER}:${
+      process.env.MONGO_PASSWORD
+    }@cluster0.klzm6.mongodb.net/${
+      process.env.MONGO_DBNAME
+    }?retryWrites=true&w=majority`,
+    // 'mongodb+srv://jake:DbMa48SM5APFSgNG@cluster0.klzm6.mongodb.net/cypherProducts?retryWrites=true&w=majority',
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {
