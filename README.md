@@ -16,6 +16,9 @@ mutation{
     price: [Float]
   }){
     name
+    description
+    price
+    quantity
   }
 }
 ```
